@@ -4,7 +4,7 @@
 FREE_SPACE=$(free -mt | grep "Total" | awk '{print $4}')
 TH=1000
 # Send user information via email
-TO="omkarsalunkhe1211@gmail.com"
+TO="YourEmailAddress@Email.com"
 
 # Get current date and time
 CURRENT_DATE_TIME=$(date +"%d-%m-%Y %I:%M:%S %p")
