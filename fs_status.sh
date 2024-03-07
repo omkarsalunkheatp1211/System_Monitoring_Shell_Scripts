@@ -10,9 +10,9 @@ CURRENT_DATE_TIME=$(date +"%d-%m-%Y %I:%M:%S %p")
 FU=$(df -H | egrep -v "Filesystem|tmpfs" | grep "sda1" | awk '{print $5}' | tr -d %)
 
 # Email recipient
-TO="omkarsalunkhe1211@gmail.com"
+TO="YourEmailAddress@Email.com"
 
-# Check if disk usage percentage is greater than or equal to 20%
+# Check if disk usage percentage is greater than or equal to 80%
 if [[ $FU -ge 80 ]]; then
     # If disk usage is high, send a warning email
     echo "Warning: Disk space is low - $FU%. Current date and time: $CURRENT_DATE_TIME. Please consider freeing up space." | mail -s "DISK SPACE ALERT!" $TO
