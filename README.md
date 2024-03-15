@@ -29,7 +29,7 @@ Instructions on how to use the scripts.
 
 1. Clone the repository to your local machine.
 2. Ensure execute permissions for the scripts (`chmod +x fs_status.sh ram_status.sh`).
-3. Install and configure Postfix [here](https://docs.oracle.com/en/learn/oracle-linux-postfix/#introduction)
+3. Postfix Installation and Configuration [here](https://github.com/omkarsalunkheatp1211/Postfix-Installation-and-Configuration-on-Linux.git)
 
 ### Usage
 
